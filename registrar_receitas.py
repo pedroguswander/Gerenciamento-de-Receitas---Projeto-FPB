@@ -12,12 +12,12 @@ def registrarRecitas(receitas) :
         lista_por_país_de_origem.filtrar_por_pais(receitas,nome_da_receita,conteudo_de_cada_receita)
         resposta = input("Deseja continuar regitrando receitas?\n").capitalize()
         if resposta == "Não" or resposta == 'N' :
-            arquivo = open("CRUD_projeto_python_1_unidade/receitas.txt",'r',encoding="utf8")
+            arquivo = open("receitas.txt",'r',encoding="utf8")
             print(arquivo.read())
             arquivo.close()
             break
 def registro(receita,nome_da_receita) :
-    file = open("CRUD_projeto_python_1_unidade/receitas.txt",'a',encoding="utf8")      
+    file = open("receitas.txt",'a',encoding="utf8")      
     #for chave in receita :
     #   file.write(chave+" ")
     file.write(nome_da_receita+" ")

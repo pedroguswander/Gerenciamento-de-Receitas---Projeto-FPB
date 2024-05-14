@@ -1,10 +1,10 @@
 def excluirReceitas() :
     while(True) :
-        file = open("CRUD_projeto_python_1_unidade/receitas.txt","r",encoding="utf8")
+        file = open("receitas.txt","r",encoding="utf8")
         lista_de_receitas = file.readlines()
         receita_excluida = input("Qual a receita que deseja excluir?\n")
         file.close()
-        file = open("CRUD_projeto_python_1_unidade/receitas.txt","w",encoding="utf8")
+        file = open("receitas.txt","w",encoding="utf8")
         file.write("")
         file.close()
         for i in range(len(lista_de_receitas)) :
@@ -22,7 +22,7 @@ def excluirReceitas() :
             pass
 
 def registroSem_a_excluida(lista_de_receitas) :
-    file = open("CRUD_projeto_python_1_unidade/receitas.txt","w",encoding="utf8")
+    file = open("receitas.txt","w",encoding="utf8")
     for receita in lista_de_receitas :
         file.write(f"{receita}\n")
         

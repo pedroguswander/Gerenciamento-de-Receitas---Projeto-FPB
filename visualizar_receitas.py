@@ -2,7 +2,7 @@ import os
 os.system("cls")
 def visualizarReceitas() :
     while(True) :
-        file = open("CRUD_projeto_python_1_unidade/receitas.txt","r",encoding="utf8")
+        file = open("receitas.txt","r",encoding="utf8")
         lista_receitas = file.readlines()
         receita_visualizada = input("Qual receita deseja visualizar?\n")
         for i in range(len(lista_receitas)) :
