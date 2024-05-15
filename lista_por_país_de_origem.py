@@ -5,5 +5,5 @@ def filtrar_por_pais(receitas,nome_da_receita,conteudo_de_cada_receita) :
     receitas_por_pais[pais][nome_da_receita] = {}
     for i in range(3) :
         receitas_por_pais[pais][nome_da_receita][conteudo_de_cada_receita[i]] = receitas[nome_da_receita][conteudo_de_cada_receita[i]]  
-    file = open("CRUD_projeto_python_1_unidade\lista_por_país_de_origem.txt",'w',encoding='utf8')
+    file = open("lista_por_país_de_origem.txt",'w',encoding='utf8')
     file.write(str(receitas_por_pais))
