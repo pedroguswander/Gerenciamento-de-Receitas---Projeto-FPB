@@ -1,1 +1,1 @@
-{'itália': {'Macarrao': {'País de origem': 'itália', 'Ingredientes': 'pasta', 'Modo de preparo': 'quente'}}}
+{'china': ['Yakissoba', 'Pizza'], 'Itália': ['Yakissoba', 'Pizza']}

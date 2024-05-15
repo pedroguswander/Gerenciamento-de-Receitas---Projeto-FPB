@@ -4,6 +4,7 @@ import registrar_receitas
 import visualizar_receitas
 import excluir_receitas
 import favoritar_receitas
+import atualizar_receitas
 print("Bem vindo ao CRUD de receitas!!")
 
 print("""As opções de menu são : registrar receitas , visualizar receitas , atualizar receitas ,
@@ -19,4 +20,6 @@ while (True) :
     elif menu == 'excluir receitas' :
         excluir_receitas.excluirReceitas()
     elif menu == 'favoritar receitas' :
-        favoritar_receitas.favoritar_receitas()        
+        favoritar_receitas.favoritar_receitas()
+    elif  menu == 'atualizar receitas' :
+        atualizar_receitas.atualizar_receitas()
