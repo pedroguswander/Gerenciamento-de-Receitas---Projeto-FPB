@@ -1,1 +1,1 @@
-{'china': ['Yakissoba', 'Pizza'], 'Itália': ['Yakissoba', 'Pizza']}
+{'Japão': ['Sushi']}

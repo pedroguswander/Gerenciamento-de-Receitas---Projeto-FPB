@@ -20,8 +20,29 @@ def atualizar_receitas() :
                     print(nova_lista_receitas)
                     lista_receitas.pop(i)
                     lista_receitas.insert(i," ".join(nova_lista_receitas))
-                    excluir_receitas.registroSem_a_excluida(lista_receitas)           
+                    excluir_receitas.registroSem_a_excluida(lista_receitas)
+                elif categoria == "Ingredientes" :
+                    nova_lista_receitas = lista_receitas[i].split()
+                    index_ingredientes = nova_lista_receitas.index("Ingredientes")
+                    index_modo = nova_lista_receitas.index("Modo")
+                    for x in range(index_ingredientes+1,index_modo) :
+                        nova_lista_receitas.pop(x)
+                    nova_lista_receitas.insert(index_ingredientes+1,conteudo)
+                    print(nova_lista_receitas)
+                    lista_receitas.pop(i)
+                    lista_receitas.insert(i," ".join(nova_lista_receitas))
+                    excluir_receitas.registroSem_a_excluida(lista_receitas)               
                     break
+                elif categoria == "Modo de preparo" :
+                    nova_lista_receitas = lista_receitas[i].split()
+                    index_preparo = nova_lista_receitas.index("preparo")
+                    for x in range(index_preparo+1,len(nova_lista_receitas)) :
+                        nova_lista_receitas.pop(x)
+                    nova_lista_receitas.insert(index_preparo+1,conteudo)
+                    print(nova_lista_receitas)
+                    lista_receitas.pop(i)
+                    lista_receitas.insert(i," ".join(nova_lista_receitas))
+                    excluir_receitas.registroSem_a_excluida(lista_receitas)    
                 #elif categoria == "Ingredientes" :
                  #   nova_lista_receitas = lista_receitas[i].split()
 
