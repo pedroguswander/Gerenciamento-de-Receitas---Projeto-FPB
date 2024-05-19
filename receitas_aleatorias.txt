@@ -1,0 +1,10 @@
+Nome: Pizza Margherita ||| País de origem: Itália ||| Ingredientes: Massa de pizza, Molho de tomate, Queijo mozzarella, Manjericão fresco, Azeite de oliva ||| Modo de preparo: Forno
+Nome: Tacos de Carne ||| País de origem: México ||| Ingredientes: Tortillas de milho, Carne moída, Alface, Tomate, Queijo ralado, Molho de pimenta ||| Modo de preparo: Chapa
+Nome: Sushi de Salmão ||| País de origem: Japão ||| Ingredientes: Arroz para sushi, Alga nori, Salmão, Vinagre de arroz, Shoyu, Gengibre em conserva ||| Modo de preparo: Sem cozimento
+Nome: Ratatouille ||| País de origem: França ||| Ingredientes: Berinjela, Abobrinha, Pimentão, Tomate, Cebola, Alho, Azeite de oliva, Ervas de Provence ||| Modo de preparo: Forno
+Nome: Curry de Frango ||| País de origem: Índia ||| Ingredientes: Peito de frango, Cebola, Alho, Gengibre, Tomate, Leite de coco, Curry em pó, Coentro fresco ||| Modo de preparo: Panela
+Nome: Feijoada ||| País de origem: Brasil ||| Ingredientes: Feijão preto, Carne de porco, Linguiça, Bacon, Cebola, Alho, Folha de louro ||| Modo de preparo: Panela
+Nome: Bacalhau à Brás ||| País de origem: Portugal ||| Ingredientes: Bacalhau desfiado, Batata palha, Cebola, Alho, Ovos, Azeite de oliva, Salsa ||| Modo de preparo: Frigideira
+Nome: Kimchi ||| País de origem: Coreia do Sul ||| Ingredientes: Acelga, Sal, Alho, Gengibre, Pimenta vermelha em pó, Cebolinha, Molho de peixe ||| Modo de preparo: Fermentação
+Nome: Ceviche de Peixe ||| País de origem: Peru ||| Ingredientes: Peixe branco, Limão, Cebola roxa, Coentro, Pimenta, Sal ||| Modo de preparo: Sem cozimento
+Nome: Paella ||| País de origem: Espanha ||| Ingredientes: Arroz, Frango, Camarão, Mexilhões, Açafrão, Pimentão, Ervilhas, Caldo de galinha ||| Modo de preparo: Panela
