@@ -9,7 +9,7 @@ def registrarRecitas(receitas) :
         nome_da_receita = input("Qual é a receita?\n").capitalize()
         receitas[nome_da_receita] = {}
         for i in range(3) :    
-            receitas[nome_da_receita][conteudo_de_cada_receita[i]] = input(f"digite { "os" if i == 1 else "o"} {conteudo_de_cada_receita[i]}\n")
+            receitas[nome_da_receita][conteudo_de_cada_receita[i]] = input()
         registro(receitas,nome_da_receita)
         lista_por_país_de_origem.filtrar_por_pais(receitas_por_pais,lista_de_pais,receitas,nome_da_receita,conteudo_de_cada_receita)
         resposta = input("Deseja continuar regitrando receitas?\n").capitalize()
@@ -18,6 +18,7 @@ def registrarRecitas(receitas) :
             arquivo.close()
             break
 def registro(receita,nome_da_receita) :
+    file = open("receitas.txt",'a',encoding="utf8")      
     file = open("receitas.txt",'a',encoding="utf8")      
     #for chave in receita :
     #   file.write(chave+" ")

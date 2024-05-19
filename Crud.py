@@ -1,5 +1,6 @@
 import os
 os.system('cls')
+os.system('cls')
 import registrar_receitas
 import visualizar_receitas
 import excluir_receitas
@@ -30,9 +31,13 @@ while (True) :
     print("Escolha uma opção do menu :",end=" ")
     menu = int(input())
     if menu == 1 :
+    menu = int(input())
+    if menu == 1 :
         registrar_receitas.registrarRecitas(registrar_receitas.receitas)
     elif menu == 2 :
+    elif menu == 2 :
         visualizar_receitas.visualizarReceitas()
+    elif menu == 3 :
     elif menu == 3 :
         excluir_receitas.excluirReceitas()
     elif menu == 4 :
