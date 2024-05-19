@@ -8,3 +8,8 @@ Sushi País de origem Japão Ingredientes macarrão Modo de preparo fervendo
 Arroz japonês País de origem Japão Ingredientes macarrão Modo de preparo fervendo
 
 
+Nome: Pão com manteiga
+País de origem: Brasil
+Ingredientes: Pão, Manteiga
+Modo de preparo: Forno
+

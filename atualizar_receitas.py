@@ -46,7 +46,7 @@ def atualizar_receitas() :
                     excluir_receitas.registroSem_a_excluida(lista_receitas)
                     break
             elif i == len(lista_receitas)-1:
-                print("Não há como excluir a receita pois não há o seu registro no sistema")
+                print("Não há como alterar a receita pois não há o seu registro no sistema")
         resposta = input("Deseja continuar atualizando receitas?\n").capitalize()
         if resposta == "Não" or resposta == "N" :
             return
