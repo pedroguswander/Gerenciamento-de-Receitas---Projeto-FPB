@@ -14,7 +14,7 @@ def favoritar_receitas() :
                 break
             elif i == len(lista_receitas) - 1 :
                 print("Essa receita não foi registrada ainda")
-        resposta = input("Deseja continuar favoritando receitas?").capitalize()
+        resposta = input("Deseja continuar favoritando receitas?\n").capitalize()
         if resposta == 'Não' or resposta == 'N' :          
             break
         else:

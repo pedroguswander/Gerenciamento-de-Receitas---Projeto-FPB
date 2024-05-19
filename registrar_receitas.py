@@ -3,19 +3,15 @@ os.system("cls")
 import lista_por_país_de_origem
 def registrarRecitas(receitas) :
     conteudo_de_cada_receita = ['País de origem','Ingredientes','Modo de preparo']
-    receitas_por_pais = {}
-    lista_de_pais = []
     while True :
         nome_da_receita = input("Qual é a receita?\n").capitalize()
         receitas[nome_da_receita] = {}
         for i in range(3) :    
             receitas[nome_da_receita][conteudo_de_cada_receita[i]] = input()
         registro(receitas,nome_da_receita)
-        lista_por_país_de_origem.filtrar_por_pais(receitas_por_pais,lista_de_pais,receitas,nome_da_receita,conteudo_de_cada_receita)
+        #lista_por_país_de_origem.filtrar_por_pais(receitas_por_pais,lista_de_pais,receitas,nome_da_receita,conteudo_de_cada_receita)
         resposta = input("Deseja continuar regitrando receitas?\n").capitalize()
         if resposta == "Não" or resposta == 'N' :
-            arquivo = open("receitas.txt",'r',encoding="utf8")
-            arquivo.close()
             break
 def registro(receita,nome_da_receita) :
     file = open("receitas.txt",'a',encoding="utf8")      

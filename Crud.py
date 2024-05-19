@@ -24,20 +24,13 @@ print('7 -\033[32m Ver Receitas por País de Origem\033[m')
 print('\033[34m=\033[m' * 50)
 
 
-# print("""As opções de menu são : registrar receitas , visualizar receitas , atualizar receitas ,
-# excluir receitas , favoritar receitas , visualizar as receitas de acordo com o país de origem e (opção extra)  """)
-
 while (True) :
     print("Escolha uma opção do menu :",end=" ")
     menu = int(input())
     if menu == 1 :
-    menu = int(input())
-    if menu == 1 :
         registrar_receitas.registrarRecitas(registrar_receitas.receitas)
     elif menu == 2 :
-    elif menu == 2 :
         visualizar_receitas.visualizarReceitas()
-    elif menu == 3 :
     elif menu == 3 :
         excluir_receitas.excluirReceitas()
     elif menu == 4 :

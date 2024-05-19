@@ -21,6 +21,7 @@ def atualizar_receitas() :
                     lista_receitas.pop(i)
                     lista_receitas.insert(i," ".join(nova_lista_receitas))
                     excluir_receitas.registroSem_a_excluida(lista_receitas)
+                    break
                 elif categoria == "Ingredientes" :
                     nova_lista_receitas = lista_receitas[i].split()
                     index_ingredientes = nova_lista_receitas.index("Ingredientes")
@@ -42,11 +43,8 @@ def atualizar_receitas() :
                     print(nova_lista_receitas)
                     lista_receitas.pop(i)
                     lista_receitas.insert(i," ".join(nova_lista_receitas))
-                    excluir_receitas.registroSem_a_excluida(lista_receitas)    
-                #elif categoria == "Ingredientes" :
-                 #   nova_lista_receitas = lista_receitas[i].split()
-
-
+                    excluir_receitas.registroSem_a_excluida(lista_receitas)
+                    break
             elif i == len(lista_receitas)-1:
                 print("Não há como excluir a receita pois não há o seu registro no sistema")
         resposta = input("Deseja continuar atualizando receitas?\n").capitalize()
