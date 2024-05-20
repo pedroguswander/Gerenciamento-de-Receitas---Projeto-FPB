@@ -10,23 +10,22 @@ import receitas_por_país_de_origem
 import receita_por_dia_da_semana
 
 print("Bem vindo ao CRUD de receitas!!")
-print('\033[34m=\033[m' * 50)
-print('                  \033[1;34;40mFATIADOS\033[m')
-print('\033[34m=\033[m' * 50)
-print('1 -\033[32m Registrar Receitas\033[m')
-print('2 -\033[32m Visualizar Receitas\033[m')
-print('3 -\033[32m Excluir Receitas\033[m')
-print('4 -\033[32m Favoritar Receitas\033[m')
-print('5 -\033[32m Sugestão de Receita Aleatória\033[m')
-print('6 -\033[32m Atualizar Receitas\033[m')
-print('7 -\033[32m Ver Receitas por País de Origem\033[m')
-print('8 -\033[32m Receita por Dia da Semana\033[m')
-
-print('\033[34m=\033[m' * 50)
-
 
 while (True) :
+    print('\033[34m=\033[m' * 50)
+    print('                  \033[1;34;40mFATIADOS\033[m')
+    print('\033[34m=\033[m' * 50)
+    print('1 -\033[32m Registrar Receitas\033[m')
+    print('2 -\033[32m Visualizar Receitas\033[m')
+    print('3 -\033[32m Excluir Receitas\033[m')
+    print('4 -\033[32m Favoritar Receitas\033[m')
+    print('5 -\033[32m Sugestão de Receita Aleatória\033[m')
+    print('6 -\033[32m Atualizar Receitas\033[m')
+    print('7 -\033[32m Ver Receitas por País de Origem\033[m')
+    print('8 -\033[32m Receita por Dia da Semana\033[m')
+    print('\033[34m=\033[m' * 50)
     print("Escolha uma opção do menu :",end=" ")
+    
     menu = int(input())
     if menu == 1 :
         registrar_receitas.registrarRecitas(registrar_receitas.receitas)

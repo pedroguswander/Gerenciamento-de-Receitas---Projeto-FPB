@@ -28,3 +28,5 @@ Arroz País de origem japão Ingredientes peixe Modo de preparo cru
 
 
 Batata País de origem Brasil Ingredientes batata, oleo Modo de preparo Panela 
+Ovo País de origem Brasil Ingredientes manteiga Modo de preparo panela 
+Miojo País de origem China Ingredientes macarrão Modo de preparo 3 min na agua 
