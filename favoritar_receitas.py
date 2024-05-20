@@ -15,7 +15,11 @@ def favoritar_receitas() :
             elif i == len(lista_receitas) - 1 :
                 print("Essa receita não foi registrada ainda")
         resposta = input("Deseja continuar favoritando receitas?\n").capitalize()
+        if resposta == "Sim" or resposta == 'S' :
+            pass
         if resposta == 'Não' or resposta == 'N' :
+            file = open("receitas_favoritas.txt","r",encoding="utf8")
+            print(file.read())
             break
         else:
             pass

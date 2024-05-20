@@ -19,6 +19,8 @@ def receitas_por_paisdeOrigem() :
         for i in range(len(pais_e_receitas[pais_receitas])) :
             print(pais_e_receitas[pais_receitas][i],end=",")
         resposta = input("\ndeseja continuar vendo receitas por país de origem?\n").capitalize()
+        if resposta == "Sim" or resposta == 'S' :
+            pass
         if resposta == "Não" or resposta == 'N' :
             break
             

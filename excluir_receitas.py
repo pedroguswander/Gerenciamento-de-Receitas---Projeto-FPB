@@ -16,6 +16,8 @@ def excluirReceitas() :
                 registroSem_a_excluida(lista_de_receitas)
         registroSem_a_excluida(lista_de_receitas)
         resposta = input("Deseja continuar excluindo receitas?\n").capitalize()
+        if resposta == "Sim" or resposta == 'S' :
+            pass
         if resposta == 'Não' or resposta == 'N' :
             break
         else : 

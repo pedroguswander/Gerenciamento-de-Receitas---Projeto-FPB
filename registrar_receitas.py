@@ -11,7 +11,9 @@ def registrarRecitas(receitas) :
             receitas[nome_da_receita][conteudo_de_cada_receita[2]] = input("Modo de preparo : ")
         registro(receitas,nome_da_receita)
         resposta = input("Deseja continuar regitrando receitas?\n").capitalize()
-        if resposta == "Não" or resposta == 'N' :
+        if resposta == "Sim" or resposta == 'S' :
+            pass
+        elif resposta == "Não" or resposta == 'N' :
             arquivo = open("receitas.txt",'r',encoding="utf8")
             break
 def registro(receita,nome_da_receita) :

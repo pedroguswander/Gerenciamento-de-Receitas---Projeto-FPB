@@ -1,7 +1,7 @@
-Segunda-feira : Sushi
-Terça-feira : Ramem
-Quarta-feira : Feijão
+Segunda-feira : Arroz
+Terça-feira : Hamburguer
+Quarta-feira : Lasanha
 Quinta-feira : Macarrão
-Sexta-feira : Lasanha
-Sábado : Hamburguer
-Domingo : Arroz
+Sexta-feira : Feijão
+Sábado : Ramem
+Domingo : Sushi

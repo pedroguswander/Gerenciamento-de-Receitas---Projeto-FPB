@@ -13,6 +13,8 @@ def visualizarReceitas() :
                 print("Essa receita não foi registrada ainda")
                 # deseja registrar essa receita?
         resposta = input("deseja continuar vendo receitas?\n").capitalize()
+        if resposta == "Sim" or resposta == 'S' :
+            pass
         if resposta == 'Não' or resposta == 'N' :
             break
         else : 
