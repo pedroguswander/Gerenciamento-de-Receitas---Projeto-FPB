@@ -50,14 +50,6 @@ def atualizar_receitas() :
         resposta = input("Deseja continuar atualizando receitas?\n").capitalize()
         if resposta == "Não" or resposta == "N" :
             return
-#def atualizar(nova_lista_receitas,lista_receitas,i,conteudo,index_inicial,index_final) :
- #   for x in range(index_inicial+1,index_final) :
-  #      nova_lista_receitas.pop(x)
-   # nova_lista_receitas.insert(index_inicial+1,conteudo)
-   # print(nova_lista_receitas)
-   # lista_receitas.pop(i)
-   # lista_receitas.insert(i," ".join(nova_lista_receitas))
-   # excluir_receitas.registroSem_a_excluida(lista_receitas)
 
 
 
