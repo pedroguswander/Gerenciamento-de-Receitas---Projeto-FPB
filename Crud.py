@@ -25,8 +25,11 @@ while (True) :
     print('8 -\033[32m Receita por Dia da Semana\033[m')
     print('\033[34m=\033[m' * 50)
     print("Escolha uma opção do menu :",end=" ")
+    try :
+        menu = int(input())
+    except ValueError :
+        print("somente valores entre 1 e 8 são aceitos")
     
-    menu = int(input())
     if menu == 1 :
         registrar_receitas.registrarRecitas(registrar_receitas.receitas)
     elif menu == 2 :
@@ -43,3 +46,5 @@ while (True) :
         receitas_por_país_de_origem.receitas_por_paisdeOrigem()
     elif menu == 8 :
         receita_por_dia_da_semana.receita_por_dia_da_semana()
+
+        
