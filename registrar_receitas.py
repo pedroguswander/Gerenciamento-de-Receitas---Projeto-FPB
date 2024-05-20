@@ -13,16 +13,14 @@ def registrarRecitas(receitas) :
         resposta = input("Deseja continuar regitrando receitas?\n").capitalize()
         if resposta == "Não" or resposta == 'N' :
             arquivo = open("receitas.txt",'r',encoding="utf8")
-            print(arquivo.read())
-            arquivo.close()
             break
 def registro(receita,nome_da_receita) :
     file = open("receitas.txt",'a',encoding="utf8")      
     #for chave in receita :
     #   file.write(chave+" ")
-    file.write(f"Nome: {nome_da_receita} | ")
+    file.write(nome_da_receita+" ")
     for chaves in receita[nome_da_receita] :
-        file.write(f" {chaves} | {receita[nome_da_receita][chaves]} | ")
+        file.write(f"{chaves} {receita[nome_da_receita][chaves]} ")
     file.write("\n")
     file.close()
 receitas = {}

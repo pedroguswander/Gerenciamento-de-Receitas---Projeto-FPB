@@ -1,74 +1,8 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Ramem País de origem Japão Ingredientes macarrão Modo de preparo Panela
-
-
-
-Mochi País de origem Japão Ingredientes macarrão Modo de preparo fervendo
-
-
-
-
-
-
-
-Sushi País de origem Japão Ingredientes macarrão Modo de preparo fervendo
-
-
-
-
-
-
-
-Arroz japonês País dNe origem Japão Ingredientes macarrão Modo de preparo fervendo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Nome: Pizza País de origem: Italia Ingredientes: Massa, Queijo, Calabresa Modo de preparo: Forno a lenha
-
-Nome | Lasanha | País de origem | Italia | Ingredientes : Massa de lasanha, carne moida, queijo ||| Modo de preparo : Forno|||
+Sushi País de origem japão Ingredientes peixe Modo de preparo cru
+Ramem País de origem japão Ingredientes peixe Modo de preparo cru
+Feijão País de origem japão Ingredientes peixe Modo de preparo cru
+Macarrão País de origem japão Ingredientes peixe Modo de preparo cru
+Lasanha País de origem japão Ingredientes peixe Modo de preparo cru
+Hamburguer País de origem japão Ingredientes peixe Modo de preparo cru
+Arroz País de origem japão Ingredientes peixe Modo de preparo cru
 
