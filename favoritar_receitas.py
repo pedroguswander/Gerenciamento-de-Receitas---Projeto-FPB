@@ -7,7 +7,7 @@ def favoritar_receitas() :
         receita_favorita = input("Qual receita deseja favoritar?\n").capitalize()
         for i in range(len(lista_receitas)) :
             if receita_favorita in lista_receitas[i] :
-                file = open("receitas_favoritas.txt","w",encoding="utf8")
+                file = open("receitas_favoritas.txt","a",encoding="utf8")
                 file.write(lista_receitas[i])
                 file.write("\n")
                 file.close()
