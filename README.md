@@ -10,7 +10,7 @@ Este projeto foi desenvolvido como parte do curso de Fundamentos de Programaçã
 - Armazenamento em Banco de Dados: Todas as informações das receitas são armazenadas em um arquivo no formato .csv ou .txt para persistência dos dados.
 - Lista de Favoritos: Permite marcar receitas favoritas para acesso rápido em uma lista separada.
 - Sugestão de Receitas Aleatórias: Apresenta funcionalidade para sugerir receitas aleatórias de diferentes países, incentivando a experimentação de novos pratos.
-- Filtragem por tipo de prato: Facilita a busca por receitas específicas de acordo com a categoria do prato (Sobremesas, Saladas, Aperitivos).
+- Cronograma de Receita por Dia da Semana : Possibilita que o usuário relacione uma receita à algum dia da semana.
 
 # Tecnologias Utilizadas (Bibliotecas)
 
@@ -22,10 +22,12 @@ Este projeto foi desenvolvido como parte do curso de Fundamentos de Programaçã
 - Crud.py: Contém o código principal do sistema, incluindo as funcionalidades principais.
 - Registrar_receitas: Arquivo de banco de dados para armazenamento das receitas.
 - Reciteas_aleatorias: Arquivo de banco de dados para armazenamento de sugestões de receitas.
-- Registrar_receitas: Arquivo de banco de dados para armazenar as listas das recitas.
 -Vizualizar_receitas:Arquivo que voce vizualiza as opçoes de receitas.
 -Favoritar_receitas: Aquirvo que favoritas a suas opçoes de receitas.
 -Exlucir_receitas: Arquivo para exluir a recita escolhida.
+-Receitas_por_país_de_origem : Arquivo para filtrar receitas pertencentes a um país de origem escolhido pelo usuário.
+-Atualizar_receita : Arquivo para modificar um conteúdo específico de uma receita.
+-Receitas_por_dia_da_semana : Arquivo que armazena um esquema de dias da semana e suas receitas , escolhido pelo usuário
 
 # Como Executar o Projeto
 
